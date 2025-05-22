@@ -1,0 +1,12 @@
+.sb-sidenav-menu {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.333);
+}
+.sb-sidenav-menu-heading {
+  padding: 1rem 0 !important;
+  padding-left: 0.5rem !important;
+}
+nav .hourse {
+  position: absolute;
+  bottom: 2%;
+  left: 33%;
+}
