@@ -36,39 +36,50 @@ function Formulario() {
 
     axios
       .post("http://127.0.0.1:8000/login", formData, {
-        headers: {
-          "Content-Type": "multipart/form-data",
-        },
+        //     headers: {
+        //       "Content-Type": "multipart/form-data",
+        //     },
       })
       .then((response) => {
-        localStorage.setItem("access_token", response.data.access_token);
-        localStorage.setItem("token_type", response.data.token_type);
-        axios.defaults.headers.common[
-          "Authorization"
-        ] = `Bearer ${response.data.access_token}`;
-        axios.get("http://127.0.0.1:8000/usuario").then((res) => {
-          localStorage.setItem("user", JSON.stringify(res.data));
-          switch (res.data.idTypeUser) {
-            case 1:
-              return router.push(`/admin`);
-              break;
-            case 2:
-              return router.push(`/meseros`);
-              break;
-            case 3:
-              return router.push(`/cocineros`);
-            default:
-              break;
-          }
-        });
+        //     localStorage.setItem("access_token", response.data.access_token);
+        //     localStorage.setItem("token_type", response.data.token_type);
+        //     axios.defaults.headers.common[
+        //       "Authorization"
+        //     ] = `Bearer ${response.data.access_token}`;
+        //     axios.get("http://127.0.0.1:8000/usuario").then((res) => {
+        //       localStorage.setItem("user", JSON.stringify(res.data));
+        //       switch (res.data.idTypeUser) {
+        //         case 1:
+        //           return router.push(`/admin`);
+        //           break;
+        //         case 2:
+        //           return router.push(`/meseros`);
+        //           break;
+        //         case 3:
+        //           return router.push(`/cocineros`);
+        //         default:
+        //           break;
+        //       }
+        //     });
       })
       .then((response) => {
         setError(null);
       })
       .catch((error) => {
-        console.error(error);
-        setError("Correo Electronico o Contraseña Incorrectos");
+        //     console.error(error);
+        //     setError("Correo Electronico o Contraseña Incorrectos");
       });
+
+    // // USUARIO FAKE
+    // setTimeout(() => {
+    //   const fakeUser = {
+    //     idTypeUser: 1, // Admin
+    //   };
+    //   localStorage.setItem("access_token", "fake-token");
+    //   localStorage.setItem("token_type", "Bearer");
+    //   localStorage.setItem("user", JSON.stringify(fakeUser));
+    //   router.push("/admin");
+    // }, 1000);
   };
   return (
     <form onSubmit={handleSubmit} className="forms">

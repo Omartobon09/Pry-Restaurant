@@ -1,1 +1,56 @@
-{}
+{
+  "node_modules\\@nextui-org\\accordion\\dist\\chunk-3XWHXVUH.mjs -> @nextui-org/dom-animation": {
+    "id": "node_modules\\@nextui-org\\accordion\\dist\\chunk-3XWHXVUH.mjs -> @nextui-org/dom-animation",
+    "files": []
+  },
+  "node_modules\\@nextui-org\\calendar\\dist\\chunk-7FIJ2QLY.mjs -> @nextui-org/dom-animation": {
+    "id": "node_modules\\@nextui-org\\calendar\\dist\\chunk-7FIJ2QLY.mjs -> @nextui-org/dom-animation",
+    "files": []
+  },
+  "node_modules\\@nextui-org\\modal\\dist\\chunk-RE5G2YMK.mjs -> @nextui-org/dom-animation": {
+    "id": "node_modules\\@nextui-org\\modal\\dist\\chunk-RE5G2YMK.mjs -> @nextui-org/dom-animation",
+    "files": []
+  },
+  "node_modules\\@nextui-org\\navbar\\dist\\chunk-5HDGDWGW.mjs -> @nextui-org/dom-animation": {
+    "id": "node_modules\\@nextui-org\\navbar\\dist\\chunk-5HDGDWGW.mjs -> @nextui-org/dom-animation",
+    "files": []
+  },
+  "node_modules\\@nextui-org\\navbar\\dist\\chunk-QKHJHOQ7.mjs -> @nextui-org/dom-animation": {
+    "id": "node_modules\\@nextui-org\\navbar\\dist\\chunk-QKHJHOQ7.mjs -> @nextui-org/dom-animation",
+    "files": []
+  },
+  "node_modules\\@nextui-org\\popover\\dist\\chunk-3ZYJG5UF.mjs -> @nextui-org/dom-animation": {
+    "id": "node_modules\\@nextui-org\\popover\\dist\\chunk-3ZYJG5UF.mjs -> @nextui-org/dom-animation",
+    "files": []
+  },
+  "node_modules\\@nextui-org\\popover\\dist\\chunk-XVHGMAVG.mjs -> @nextui-org/dom-animation": {
+    "id": "node_modules\\@nextui-org\\popover\\dist\\chunk-XVHGMAVG.mjs -> @nextui-org/dom-animation",
+    "files": []
+  },
+  "node_modules\\@nextui-org\\ripple\\dist\\chunk-MRKSP4U5.mjs -> @nextui-org/dom-animation": {
+    "id": "node_modules\\@nextui-org\\ripple\\dist\\chunk-MRKSP4U5.mjs -> @nextui-org/dom-animation",
+    "files": []
+  },
+  "node_modules\\@nextui-org\\tooltip\\dist\\chunk-LY4WDGUU.mjs -> @nextui-org/dom-animation": {
+    "id": "node_modules\\@nextui-org\\tooltip\\dist\\chunk-LY4WDGUU.mjs -> @nextui-org/dom-animation",
+    "files": []
+  },
+  "node_modules\\jspdf\\dist\\jspdf.es.min.js -> canvg": {
+    "id": "node_modules\\jspdf\\dist\\jspdf.es.min.js -> canvg",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_canvg_lib_index_es_js.js"
+    ]
+  },
+  "node_modules\\jspdf\\dist\\jspdf.es.min.js -> dompurify": {
+    "id": "node_modules\\jspdf\\dist\\jspdf.es.min.js -> dompurify",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_dompurify_dist_purify_es_mjs.js"
+    ]
+  },
+  "node_modules\\jspdf\\dist\\jspdf.es.min.js -> html2canvas": {
+    "id": "node_modules\\jspdf\\dist\\jspdf.es.min.js -> html2canvas",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_html2canvas_dist_html2canvas_js.js"
+    ]
+  }
+}
