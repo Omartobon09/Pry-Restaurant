@@ -14,7 +14,7 @@
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@nextui-org/react": "^2.2.10",
     "axios": "^1.6.8",
-    "jspdf": "^2.5.1",
+    "jspdf": "^3.0.1",
     "next": "^14.1.4",
     "primeflex": "^3.3.1",
     "primeicons": "^7.0.0",

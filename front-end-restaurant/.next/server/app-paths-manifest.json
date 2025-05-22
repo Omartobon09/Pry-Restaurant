@@ -1,10 +1,1 @@
-{
-  "/login/page": "app/login/page.js",
-  "/meseros/page": "app/meseros/page.js",
-  "/cocineros/orders/listar-orders/page": "app/cocineros/orders/listar-orders/page.js",
-  "/admin/page": "app/admin/page.js",
-  "/cocineros/inventory/listar-inventory/page": "app/cocineros/inventory/listar-inventory/page.js",
-  "/admin/facture/sale/page": "app/admin/facture/sale/page.js",
-  "/admin/facture/view-order/page": "app/admin/facture/view-order/page.js",
-  "/admin/facture/create-facture/page": "app/admin/facture/create-facture/page.js"
-}
+{}
